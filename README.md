@@ -11,6 +11,10 @@
 ## Preview
 
 
+https://user-images.githubusercontent.com/73790226/170804271-04cb78f7-2280-4e7e-a807-9f18645168a1.mp4
+
+
+
 ## Development
 
 - Implement a color palette using `javascript`, `css` and `html`.
