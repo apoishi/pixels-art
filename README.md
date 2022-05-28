@@ -4,17 +4,16 @@
 
 - Manipulate Javascript
 
----
-
 ## What should be developed
 
 - You will implement a web page that contains a functional color palette that can be used to create pixel drawings. For this you will use `javascript`, `css` and `html`.
----
+
+## Preview
+
 
 ## Development
 
 - Implement a color palette using `javascript`, `css` and `html`.
----
 
 ## Mandatory Requirements:
 
