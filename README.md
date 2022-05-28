@@ -15,7 +15,7 @@ an implementation of a web page that contains a functional color palette that ca
 https://user-images.githubusercontent.com/73790226/170804271-04cb78f7-2280-4e7e-a807-9f18645168a1.mp4
 
 
-## Mandatory Requirements:
+## Mandatory Requirements
 
 In this project, you will implement a pixel art editor.
 
@@ -143,7 +143,7 @@ In this project, you will implement a pixel art editor.
 
 - Checks that when clicking the button, the pixel board is completely filled with white
 
-## Bonus Requirements:
+## Bonus Requirements
 
 ### 10 - Make the pixel board have its size defined by the user.
 
