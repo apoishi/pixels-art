@@ -1,23 +1,19 @@
+## About the project
+
+This repository contains the pixels art project developed at Trybe, as part of their fundamentals curriculum. The project consists of 
+an implementation of a web page that contains a functional color palette that can be used to create pixel drawings. 
+
 ## Skills
 
 - Manipulate the DOM
 
 - Manipulate Javascript
 
-## What should be developed
-
-- You will implement a web page that contains a functional color palette that can be used to create pixel drawings. For this you will use `javascript`, `css` and `html`.
-
 ## Preview
 
 
 https://user-images.githubusercontent.com/73790226/170804271-04cb78f7-2280-4e7e-a807-9f18645168a1.mp4
 
-
-
-## Development
-
-- Implement a color palette using `javascript`, `css` and `html`.
 
 ## Mandatory Requirements:
 
@@ -71,31 +67,31 @@ In this project, you will implement a pixel art editor.
 
 - Checks if the other colors can be freely chosen.
 
-### 4 - Add a pixel frame to the page, with 25 pixels.
+### 4 - Add a pixel board to the page, with 25 pixels.
 
-- The "pixel" frame must be 5 elements wide and 5 elements long;
+- The "pixel" board must be 5 elements wide and 5 elements long;
 
-- The "pixel" frame must have the `id` called `pixel-board`, while each individual "pixel" within the frame must have the `class` called `pixel`;
+- The "pixel" board must have the `id` called `pixel-board`, while each individual "pixel" within the board must have the `class` called `pixel`;
 
-- The initial color of the "pixels" inside the frame, when opening the page, must be white;
+- The initial color of the "pixels" inside the board, when opening the page, must be white;
 
-- The "pixel" frame should appear below the color palette.
+- The "pixel" board should appear below the color palette.
 
 **What will be verified:**
 
 - Checks if the pixel board has the `id` named `pixel-board`
 
-- Checks whether each individual pixel within the frame has the `class` named `pixel`.
+- Checks whether each individual pixel within the board has the `class` named `pixel`.
 
-- Checks if the initial color of the pixels inside the frame, when opening the page, is white.
+- Checks if the initial color of the pixels inside the board, when opening the page, is white.
 
-- Checks if the pixel frame appears below the color palette
+- Checks if the pixel board appears below the color palette
 
-### 5 - Make each pixel frame element 40 pixels wide, 40 pixels high and delimited by a 1-pixel black border.
+### 5 - Make each pixel board element 40 pixels wide, 40 pixels high and delimited by a 1-pixel black border.
 
 **What will be verified:**
 
-- Checks whether the pixel frame has a height and length of 5 elements
+- Checks whether the pixel board has a height and length of 5 elements
 
 - Checks that 40 pixels is the total size of the element, including its content and excluding the black border, which must be created separately.
 
@@ -111,7 +107,7 @@ In this project, you will implement a pixel art editor.
 
 - Checks that no other color in the palette has the `class` `selected`
 
-### 7 - Clicking on one of the colors in the palette makes it selected and used to fill the pixels in the frame.
+### 7 - Clicking on one of the colors in the palette makes it selected and used to fill the pixels in the board.
 
 - The `class` `selected` must be added to the selected color in the palette, at the same time it is removed from the previously selected color;
 
@@ -123,9 +119,9 @@ In this project, you will implement a pixel art editor.
 
 - Checks if only one color from the color palette has the `selected` class at a time
 
-- Checks that pixels inside the frame don't have the `selected` class when clicked
+- Checks that pixels inside the board don't have the `selected` class when clicked
 
-### 8 - Clicking on a pixel within the frame after selecting a color from the palette causes the pixel to be filled with the selected color.
+### 8 - Clicking on a pixel within the board after selecting a color from the palette causes the pixel to be filled with the selected color.
 
 **What will be verified:**
 
@@ -135,25 +131,25 @@ In this project, you will implement a pixel art editor.
 
 - Checks if only the pixel that was clicked was filled with the selected color, without influencing the color of the other pixels.
 
-### 9 - Create a button that, when clicked, clears the frame by filling the color of all its pixels with white.
+### 9 - Create a button that, when clicked, clears the board by filling the color of all its pixels with white.
 
 **What will be verified:**
 
 - Checks if the button has the `id` named `clear-board`
 
-- Checks if the button is positioned between the color palette and the pixel frame
+- Checks if the button is positioned between the color palette and the pixel board
 
 - Checks if the button text is \'Clear\'
 
-- Checks that when clicking the button, the pixel frame is completely filled with white
+- Checks that when clicking the button, the pixel board is completely filled with white
 
 ## Bonus Requirements:
 
-### 10 - Make the pixel frame have its size defined by the user.
+### 10 - Make the pixel board have its size defined by the user.
 
-- Create an input and a button that allow defining a frame of pixels with a size between 5 and 50. When clicking on the button, a frame of **N** pixels wide and **N** pixels high must be generated, where **N** is the number entered in the input;
+- Create an input and a button that allow defining a board of pixels with a size between 5 and 50. When clicking on the button, a board of **N** pixels wide and **N** pixels high must be generated, where **N** is the number entered in the input;
 
- - That is, if the value passed to the input is 7, clicking on the button will generate a frame of 49 pixels (7 pixels wide x 7 pixels high);
+ - That is, if the value passed to the input is 7, clicking on the button will generate a board of 49 pixels (7 pixels wide x 7 pixels high);
 
 - The input must have the `id` called `board-size` and the button must have the `id` called `generate-board`;
 
@@ -167,7 +163,7 @@ In this project, you will implement a pixel art editor.
 
 - If no value is placed in the input when clicking the button, show an `alert` with the text: "Invalid board!";
 
-- The new frame must have all pixels filled with white color.
+- The new board must have all pixels filled with white color.
 
 **What will be verified:**
 
@@ -179,7 +175,7 @@ In this project, you will implement a pixel art editor.
 
 - Checks if the button contains the text \'VQV\'
 
-- Checks if the input is positioned between the color palette and the pixel frame
+- Checks if the input is positioned between the color palette and the pixel board
 
 - Checks if the button is positioned next to the input
 
@@ -187,7 +183,7 @@ In this project, you will implement a pixel art editor.
 
 - Checks if clicking on the button with a filled value changes the size of the board.
 
-- Checks if the new frame has all pixels filled with white color
+- Checks if the new board has all pixels filled with white color
 
 ### 11 - Limit the minimum and maximum board size.
 
